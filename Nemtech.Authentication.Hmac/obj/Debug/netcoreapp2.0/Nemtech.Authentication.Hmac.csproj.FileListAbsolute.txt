@@ -1,0 +1,18 @@
+c:\users\admin\documents\visual studio 2017\Projects\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\bin\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.deps.json
+c:\users\admin\documents\visual studio 2017\Projects\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\bin\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.dll
+c:\users\admin\documents\visual studio 2017\Projects\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\obj\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2017\Projects\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\obj\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.csproj.CoreCompileInputs.cache
+c:\users\admin\documents\visual studio 2017\Projects\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\obj\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.AssemblyInfoInputs.cache
+c:\users\admin\documents\visual studio 2017\Projects\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\obj\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.AssemblyInfo.cs
+c:\users\admin\documents\visual studio 2017\Projects\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\bin\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.pdb
+c:\users\admin\documents\visual studio 2017\Projects\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\obj\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.dll
+c:\users\admin\documents\visual studio 2017\Projects\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\obj\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.pdb
+E:\Dropbox\Security\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\bin\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.deps.json
+E:\Dropbox\Security\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\bin\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.dll
+E:\Dropbox\Security\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\bin\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.pdb
+E:\Dropbox\Security\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\obj\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.csprojResolveAssemblyReference.cache
+E:\Dropbox\Security\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\obj\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.csproj.CoreCompileInputs.cache
+E:\Dropbox\Security\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\obj\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.AssemblyInfoInputs.cache
+E:\Dropbox\Security\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\obj\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.AssemblyInfo.cs
+E:\Dropbox\Security\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\obj\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.dll
+E:\Dropbox\Security\Nemtech.Authentication.Hmac\Nemtech.Authentication.Hmac\obj\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.pdb
