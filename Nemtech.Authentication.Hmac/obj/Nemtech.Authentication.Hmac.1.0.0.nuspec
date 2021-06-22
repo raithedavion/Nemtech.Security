@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Nemtech.Authentication.Hmac</id>
+    <version>1.0.0</version>
+    <authors>Nemtech.Authentication.Hmac</authors>
+    <owners>Nemtech.Authentication.Hmac</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.AspNetCore.Authentication" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Caching.Memory" version="2.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Dropbox\Projects\Security\Nemtech.Security\Nemtech.Authentication.Hmac\bin\Debug\netcoreapp2.0\Nemtech.Authentication.Hmac.dll" target="lib\netcoreapp2.0\Nemtech.Authentication.Hmac.dll" />
+  </files>
+</package>

@@ -22,7 +22,7 @@ namespace Nemtech.Authentication.Hmac
             if (options.TicketDataFormat == null)
             {
                 var dataProtector = options.DataProtectionProvider.CreateProtector(
-                    typeof(HmacHandler).FullName, name, "v1");
+                    typeof(HmacHandler).FullName, name, "v2");
                 options.TicketDataFormat = new TicketDataFormat(dataProtector);
             }
         }

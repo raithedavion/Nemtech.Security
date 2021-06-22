@@ -17,9 +17,31 @@ namespace Nemtech.Authentication.Hmac
         private string _authName { get; set; }
         private bool _nonceEnabled { get; set; }
 
+        private string _dateStamp { get; set; }
+        private string _serviceName { get; set; }
+        private string _deviceOS { get; set; }
+
+        private bool _deviceOSEnabled { get; set; }
+
         //Method to call when you need grab the private key from an external source
         public delegate string RetrievePrivateKey(string publicKey);
         public event RetrievePrivateKey GetPrivateKey;
+
+        //Method to call when you need grab the private key from an external source
+        public delegate string RetrieveDeviceOS(string userAgent);
+        public event RetrieveDeviceOS GetDeviceOS;
+
+        public string DateStamp
+        {
+            set { _dateStamp = value; }
+            get { return _dateStamp; }
+        }
+
+        public string ServiceName
+        {
+            set { _serviceName = value; }
+            get { return _serviceName; }
+        }
 
         //Retreive private key
         public string PrivateKey
@@ -51,10 +73,21 @@ namespace Nemtech.Authentication.Hmac
             }
         }
 
+        public string DeviceOS
+        {
+            get
+            {
+                _deviceOS = GetDeviceOS(UserAgent);
+                return _deviceOS;
+            }
+        }
+
         /// <summary>
         /// 1, 256, 384, 512
         /// </summary>
         public HmacCipherStrength CipherStrength { get; set; }
+
+        public string UserAgent { get; set; }
 
         /// <summary>
         /// AWS, Nemtech, etc.  IE:  Authorization: aws <accessid>:<signature>
@@ -94,6 +127,18 @@ namespace Nemtech.Authentication.Hmac
             set
             {
                 _nonceEnabled = value;
+            }
+        }
+
+        public bool EnableDeviceOS
+        {
+            get
+            {
+                return _deviceOSEnabled;
+            }
+            set
+            {
+                _deviceOSEnabled = value;
             }
         }
     }
